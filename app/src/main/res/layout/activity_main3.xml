@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/pvs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
+        android:text="Previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/nxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Setup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="372dp"
+        android:layout_height="509dp"
+        android:text="Las siguientes características se proporcionan en la versión estable actual:   Soporte de compilación basado en Gradle Refactorización y arreglos rápidos específicos de Android Herramientas Lint para detectar problemas de rendimiento, usabilidad, compatibilidad de versiones y otros Capacidades de integración y firma de aplicaciones de ProGuard Asistentes basados en plantillas para crear diseños y componentes comunes de Android Un editor de diseño enriquecido que permite a los usuarios arrastrar y soltar componentes de la interfaz de usuario, opción para obtener una vista previa de los diseños en múltiples configuraciones de pantalla  Compatibilidad con la creación de aplicaciones de Android Wear Compatibilidad integrada con Google Cloud Platform, lo que permite la integración con Firebase Cloud Messaging (anteriormente 'Google Cloud Messaging') y Google App Engine  Dispositivo virtual de Android (emulador) para ejecutar y depurar aplicaciones en el estudio de Android. Android Studio es compatible con los mismos lenguajes de programación de IntelliJ (y CLion ), por ejemplo , Java , C++ y más con extensiones, como Go ;  y Android Studio 3.0 o posterior es compatible con Kotlin  y &quot;todas las funciones del lenguaje Java 7 y un subconjunto de funciones del lenguaje Java 8 que varían según la versión de la plataforma&quot;.  Los proyectos externos respaldan algunas funciones de Java 9. Si bien IntelliJ afirma que Android Studio admite todas las versiones de Java y Java 12, no está claro en qué nivel Android Studio admite las versiones de Java hasta Java 12 (la documentación menciona la compatibilidad parcial con Java 8). Al menos algunas características nuevas del lenguaje hasta Java 12 se pueden usar en Android."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
